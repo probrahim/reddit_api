@@ -17,7 +17,7 @@ submission.comments.replace_more(limit=0)
 
 test_list = ['key']
 
-with open('test_comnt', 'w', encoding='utf-8') as file:
+with open('test_comnt.txt', 'w', encoding='utf-8') as file:
     count = 0
 
     for comment in submission.comments.list():
